@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projekt 1 – Mein Portfolio</title>
+</head>
+<body>
+
+  <header>
+    <h1>Hobby Diary</h1>
+    <a href="{{ url_for('home') }}">← Zurück zur Übersicht</a>
+  </header>
+
+  <main>
+    <section>
+      <h2>Beschreibung</h2>
+      <p>Eine Webapp, dich dich dazu bringen soll, mehr für deine Hobbies und deine Begeisterung zu machen. 
+        Sammle deine Erinnerungen von all deinen Hobbies und tracke somit deinen Fortschritt. <br>
+        Schaue auch, was deine beliebtesten Hobbies sind!
+      </p>
+    </section>
+
+    <section>
+      <h2>Bilder / Screenshots</h2>
+      <img src="{{ url_for('static', filename='index/project_websites/create_view.png') }}" alt="Screenshot von Projekt 1" width="600">
+    </section>
+
+    <section>
+      <h2>Weitere Infos</h2>
+      <ul>
+        <li><strong>Technologien:</strong> HTML, CSS, JavaScript</li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/duytamvu24/Hobby_Diary" target="_blank">Zum Repository</a></li>
+        <li><strong>Live-Demo:</strong> <a href="https://duytamvu24.github.io/Hobby_Diary/" target="_blank">Jetzt ausprobieren</a></li>
+      </ul>
+    </section>
+  </main>
+
+</body>
+</html>

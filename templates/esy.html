@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projekt 1 – Mein Portfolio</title>
+</head>
+<body>
+
+  <header>
+    <h1>Easter Spirit Youth Projekte</h1>
+    <a href="{{ url_for('home') }}">← Zurück zur Übersicht</a>
+  </header>
+
+  <main>
+    <section>
+      <h2>Beschreibung</h2>
+      <p>Für unsere Gemeinde habe ich mehrere Module und eine Website geschrieben, die wir in unseren Projekten regelmäßig benutzen.<br>
+        Darunter gehören zum Beispiel eine Homepage, ein Modul zum Aufteilen von Teams, ein Finanzübersichtsrechner, ein Programm, um Gruppen für Workshops 
+        basierend auf deren Erst- und Zweitwahl, zu bilden, usw.
+      </p>
+    </section>
+
+    <section>
+      <h2>Bilder / Screenshots</h2>
+      <img src="{{ url_for('static', filename='index/project_websites/esy_logo.jpg') }}" alt="Screenshot von Projekt 1" width="600">
+    </section>
+
+    <section>
+      <h2>Weitere Infos</h2>
+      <ul>
+        <li><strong>Technologien:</strong> HTML, CSS, JavaScript</li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/duytamvu24/ESY/tree/main" target="_blank">Zum Repository</a></li>
+        <li><strong>Homepage:</strong> <a href="https://duytamvu24.github.io/ESY/Trai%20He/esy.html" target="_blank">Jetzt ausprobieren</a></li>
+      </ul>
+    </section>
+  </main>
+
+</body>
+</html>

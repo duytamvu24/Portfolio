@@ -1,0 +1,34 @@
+[
+  {
+    "titel": "TFT Rolling Simulator 🎮",
+    "img_url": "project_websites/tft_web.png",
+    "description": "Ein Roll-Down Simulator als Application für das Spiel TFT für Set 14.",
+    "pro_language": "Python",
+    "year": 2025,
+    "url": "tft_rolling_down_simulator.html"
+  },
+  {
+    "titel": "ESY-Homepage ⛪️",
+    "img_url": "project_websites/esy_logo.jpg",
+    "description": "Website für unsere Gemeinde, um uns und unsere Events vorzustellen.",
+    "pro_language": "JavaScript, CSS, HTML",
+    "year": 2025,
+    "url": "esy.html"
+  },
+  {
+    "titel": "Hobby Diary 📝",
+    "img_url": "project_websites/create_view.png",
+    "description": "Eine WebApp, um Hobbies oder andere Aktivitäten aufzeichnen, speicheren und tracken zu können.",
+    "pro_language": "JavaScript, CSS, HTML",
+    "year": 2025,
+    "url": "hobby_diary.html"
+  }, 
+  {
+    "titel": "MRT-Spirometriemodul für die Masterarbeit 👨‍🎓",
+    "img_url": "project_websites/Spiro_modul.png",
+    "description": "Eine Applikation, um die Spirometrie Daten auswerten zu können, und um diese danach mit den MRT-Bildern korrelieren zu können.",
+    "pro_language": "Python",
+    "year": 2025,
+    "url": "abschlussarbeiten.html"
+  }
+]

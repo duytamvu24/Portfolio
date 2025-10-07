@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Abschlussarbeiten – Mein Portfolio</title>
+</head>
+<body>
+
+  <header>
+    <h1>Abschlussarbeiten</h1>
+    <a href="{{ url_for('home') }}">← Zurück zur Übersicht</a>  </header>
+
+  <main>
+    <section>
+      <h2>Beschreibung</h2>
+      <p>Ein Modul, zur Auswertung von Spirometriedaten, die mit Hilfe von einem Ergometer für das MRT, aufgenommen wurden. <br>
+        Das Modul extrahiert die Spirometriedaten und berechnet für weitere Analysen Kenngrößen aus. 
+        Diese Kenngrößen werden als Parameter genutzt, um die Spirometriedaten mit den Bilddaten vom MRT zu synchronisieren. <br>
+        Dies erlaubt eine Auswertung der Bilddaten, abhängig von der Atemphase. 
+      </p>
+    </section>
+
+    <section>
+      <h2>Bilder / Screenshots</h2>
+<img src="{{ url_for('static', filename='index/project_websites/Spiro_modul.png') }}" alt="Screenshot von Projekt 1" width="600">
+    </section>
+
+    <section>
+      <h2>Weitere Infos</h2>
+      <ul>
+        <li><strong>Technologien:</strong> HTML, CSS, JavaScript</li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/duytamvu24/Hobby_Diary" target="_blank">Zum Repository</a></li>
+        <li><strong>Live-Demo:</strong> <a href="https://duytamvu24.github.io/Hobby_Diary/" target="_blank">Jetzt ausprobieren</a></li>
+      </ul>
+    </section>
+  </main>
+
+</body>
+</html>

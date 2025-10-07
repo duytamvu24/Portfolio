@@ -1,0 +1,54 @@
+<div class="aboutme_container">
+        <div class="aboutme_subcontainer">
+        <h2 class="aboutme_header">Bildung</h2>
+        <ul class="aboutme_list">
+            <li><strong>Bachelor Medizinische Physik</strong><br>Heinrich Heine Universität<br><span class="aboutme_years">2019 – 2023</span></li>
+            <li><strong>Master Medizinische Physik</strong><br>Heinrich Heine Universität<br><span class="aboutme_years">2023 – 2025</span></li>
+        </ul>
+        </div>
+
+        <div class="aboutme_subcontainer">
+        <h2 class="aboutme_header">Berufserfahrung</h2>
+        <ul class="aboutme_list">
+            <li><strong>Work & Travel Kanada</strong><br><span class="aboutme_years">2018 – 2019</span></li>
+            <li><strong>Nachhilfe – Studierendenkreis</strong><br><span class="aboutme_years">2020 – 2021</span></li>
+            <li><strong>Tutor – Optik-Modul</strong><br>Heinrich Heine Universität<br><span class="aboutme_years">2021 – 2022</span></li>
+            <li><strong>Werkstudent – Data Scientist</strong><br>1&1 Versatel<br><span class="aboutme_years">2022 – 2025</span></li>
+        </ul>
+        </div>
+
+        <div class="aboutme_subcontainer">
+        <h2 class="aboutme_header">Skills</h2>
+        <ul class="aboutme_list">
+            <li>Python</li>
+            <li>Java</li>
+            <li>JavaScript, HTML, CSS</li>
+            <li>Angular</li>
+            <li>SQL</li>
+            <li>Git, GitHub, Bash</li>
+        </ul>
+        </div>
+    </div>
+
+
+     Hi, ich bin Tam_<br>
+        angehende Medizinphysikerin mit einer wachsenden Leidenschaft fürs Programmieren. <br><br>
+        Aktuell befinde ich mich im letzten Semester meines Masterstudiums in Medizinischer Physik.<br><br>
+        Während meines Studiums habe ich die Welt des Programmierens entdeckt – und sie hat mich sofort begeistert. Seither arbeite ich kontinuierlich an Projekten, in denen ich meine Ideen kreativ umsetze und neue Technologien ausprobiere.<br><br>
+        Ob Tools für meine Abschlussarbeiten oder persönliche Software-Projekte – ich liebe es, durch Code Probleme zu lösen und Dinge zum Leben zu erwecken.<br><br>
+        Mein Ziel: Wissen anwenden, weiter lernen und Software entwickeln, die wirklich einen Unterschied macht.
+
+
+<div class="project_portfolio" id="project_portfolio">Projects
+        </div>
+        <div class="other_activities"  id="other_activities">Other Activities
+        </div>
+        <div class="contact_part" id="contact">
+            <div class="contact_header">Kontakt</div>
+            <div class="contact">
+                <div class="contact_element">emailAdresse</div>
+                <div class="contact_element">LinkedIn</div>
+                <div class="contact_element">Xing</div>
+                <div class="contact_element">youtube</div>
+            </div>
+        </div>

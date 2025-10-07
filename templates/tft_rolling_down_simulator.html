@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projekt 1 – Mein Portfolio</title>
+</head>
+<body>
+
+  <header>
+    <h1>TFT Rolldown Simulator</h1>
+    <a href="{{ url_for('home') }}">← Zurück zur Übersicht</a>
+  </header>
+
+  <main>
+    <section>
+      <h2>Beschreibung</h2>
+      <p>Ein TFT Rolldown Simulator für Set 14. Gebe dein Level, dein Gold und trainiere dein Rolldown für bestimmte Situationen, um besser in TFT zu werden.</p>
+    </section>
+
+    <section>
+      <h2>Bilder / Screenshots</h2>
+      <img src="{{ url_for('static', filename='index/project_websites/tft_web.png') }}" alt="Screenshot von Projekt 1" width="600">
+    </section>
+
+    <section>
+      <h2>Weitere Infos</h2>
+      <ul>
+        <h3>Als .exe-Datei
+            <li><strong>Technologien:</strong> Python und Tkinter</li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/duytamvu24/TFT_Rolling_Simulator" target="_blank">Zum Repository</a></li>
+        </h3>
+        <h3>Als Webanwendung
+            <li><strong>Technologien:</strong> HTML, CSS, JavaScript</li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/duytamvu24/TFT_Web_Rolling_Sim" target="_blank">Zum Repository</a></li>
+            <li><strong>Live-Demo:</strong> <a href="https://duytamvu24.github.io/TFT_Web_Rolling_Sim/tft_set14.html" target="_blank">Jetzt ausprobieren</a></li>
+        </h3>
+      </ul>
+    </section>
+  </main>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+[
+  {
+    "titel": "Golden",
+    "author": "Huntrix",
+    "feat":"",
+    "audio": "golden-3.mid",
+    "pdf":"golden-3.pdf",
+    "image":"golden.PNG",
+    "description":"Golden for Piano, drums, instruments",
+    "date": "01.01.2025"
+},
+{
+    "titel": "What it sounds like",
+    "author": "Huntrix",
+    "feat":"",
+    "audio": "what_it_sounds_like.mid",
+    "pdf":"what_it_sounds_like.pdf",
+    "image":"what_it_sounds_like.PNG",
+    "description":"What it sounds like for Piano, drums, instruments",
+    "date": "01.02.2025"
+},
+{
+    "titel": "Viva la Vida",
+    "author": "Coldplay",
+    "feat":"",
+    "audio": "vivalavida.mid",
+    "pdf":"vivalavida.pdf",
+    "image":"vivalavida.PNG",
+    "description":"Viva la vida",
+    "date": "01.02.2024"
+}
+]

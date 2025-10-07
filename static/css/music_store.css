@@ -1,0 +1,58 @@
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* drei Spalten nebeneinander */
+    gap: 10px; /* Abstand zwischen den Elementen */
+    margin: 10px 0px 1% 0px;
+    padding: 10px 10px 10px 10px;
+    background-color: aqua;
+}
+
+.music_sheet_section{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(30, 148, 65);
+  padding: 1% 1% 1% 1%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.sheet{
+  color: rgb(0, 0, 0);
+  display: grid;
+  grid-template-rows: 1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+  border-radius: 1%;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  padding: 5px 5px 5px 5px;
+}
+
+.sheet_image img {
+  width: 20%;
+  height: auto;
+  display: block;
+  object-fit: contain; /* oder "cover", je nach gewünschtem Verhalten */
+}
+
+.sheet_mid {
+  background: #fafafa;
+  border-top: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.sheet_mid:hover {
+  background: #e8e8e8;
+}
+
+.sheet_download{
+  text-align: center;
+  font-weight: 500;
+}
+
+.sheet_download:hover{
+  background:rgb(209, 222, 213);
+}
+

@@ -1,0 +1,39 @@
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: white;
+  background: linear-gradient(to right, #000000, #001f1f);
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 1vh 2vw;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+
+.menu_label {
+  font-size: clamp(1.2rem, 2vw, 3rem);
+  border-radius: 10px;
+  border: 2px solid aqua;
+  padding: 1vh 1vw;
+  text-align: center;
+  transition: all 0.3s ease;
+  background-color: rgba(0, 255, 255, 0.1);
+  cursor: pointer;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.menu_label:hover {
+  background-color: rgba(0, 255, 255, 0.2);
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 255, 255, 0.3);
+}
+
+.menu_label:hover .highlight-letter{
+  font-size: 50px;
+  font-style: italic;
+}

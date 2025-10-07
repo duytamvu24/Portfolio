@@ -1,0 +1,170 @@
+.aboutme {
+  width: 100%;
+  height: 88vh;
+  background: linear-gradient(135deg, rgba(0, 255, 255, 0.2), #000000);
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+
+  display: flex;
+  flex-direction: column;     /* Damit Text untereinander bleibt */
+  align-items: center;        /* Horizontal zentrieren */
+  text-align: center;         /* Textinhalt zentriert */
+}
+
+.infotext{
+  width: 25vw;
+  height: 20vh;
+  margin: 5% 5% 5% 5%;
+  padding: 1% 5% 1% 5%;
+  border-style: solid;
+  border-radius: 10%;
+  border-color: rgba(0, 255, 255, 0.2);
+  background-color: white;
+  color: rgb(5, 5, 5);
+  font-size: 150%;
+  text-align: center;
+}
+
+.infotext.expanded{
+  width: 90%;
+  height: 38vh/*45 piano. 6 ist menu*/;
+  margin: 1% 1% 1% 1%;
+}
+
+.infotext h1 {
+  font-size: clamp(1rem, 2vw, 2rem);
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.infotext p {
+  font-size: clamp(1rem, 2vw, 1.1rem);
+  color: #4e4e4e;
+  line-height: 1.5;
+}
+
+.hidden {
+  display: none;
+}
+
+#noten_blatt {
+  color: black;
+}
+
+.noten_zeile{
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5%;
+}
+
+.takt_mit_zaehlzeit{
+  flex: 1.3;
+  border-radius: 1%;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.479);
+  position: relative; /* <-- wichtig! */
+}
+
+.takt{
+  flex: 1;
+  border-radius: 1%;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.425);
+  position: relative;
+}
+
+.takt_kopf{
+  display: flex;
+  flex-direction: row;
+  flex: 0.3;
+}
+
+.takt_body{
+  flex: 1; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.takt_komponenten{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  flex-direction: row;
+  z-index: 1;
+}
+
+
+.noten{
+  flex: 1;
+}
+
+
+.takt_mit_zaehlzeit{
+  flex: 1.3;
+  border-radius: 1%;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.479);
+  position: relative; /* <-- wichtig! */
+}
+
+.notenlinien{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 0;
+
+}
+
+.notenlinie{
+  flex: 1;
+  border-bottom: #00000075;
+  border-radius: 0.001%;
+  border-style: solid;
+} 
+
+.schluessel {
+  top: 0;
+  left: 0;
+  font-size: 12vh; /* passt sich Fensterhöhe an */
+  line-height: 1;
+}
+
+.zaehlzeit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1vh;
+  top: 0;
+  left: 15%;
+}
+
+.taktzahl {
+  font-size: 5vh;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.taktstrich {
+  width: 1.5vh;
+  border-bottom: 2px solid black;
+  margin: 0;
+}
+
+
+
+
+
+

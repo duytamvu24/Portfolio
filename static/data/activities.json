@@ -1,0 +1,20 @@
+[
+  {
+    "titel": "Musik",
+    "beschreibung": "Ich spiele seit 20 Jahren Klavier, gebe Unterricht und produziere meine eigene Musik. ",
+    "url":"music_shop.html",
+    "zusatz": "Preview zu einem Song, den ich gemacht habe!"
+  },
+  {
+    "titel": "Jugendarbeit",
+    "beschreibung": "Seit 2019 bin ich ehrenamtlich in der Jugendarbeit bei der vietnamnesischen katholischen Gemeinde Köln-Aachen in ESY tätig.",
+    "url":"link zur esy website",
+    "zusatz": ""
+  },
+  {
+    "titel": "Handball",
+    "beschreibung": "Ich spiele in der zeiten Mannschaft von TG Düsseldorf Handball!",
+    "url": "Link zu TG 81",
+    "zusatz": "logo"
+  }
+]
